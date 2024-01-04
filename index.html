@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <title>WebAudio Experiment</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+
+<main style="padding: 10px">
+    <section>
+        <header>
+            <h2>WebAudio Experiment</h2>
+        </header>
+    </section>
+    <section>
+        <input id="beep_freq" type="number" value="1800">
+        <label for="beep_freq">
+            Beep Frequency (Hz)
+        </label>
+
+        <input id="beep_duration" type="number" value="200">
+        <label for="beep_duration">
+            Beep Duration (ms)
+        </label>
+    </section>
+    <section>
+        <h3>MP3 Data URL</h3>
+        <button id="single_beep">Single Beep</button>
+
+        <button id="rapid_beep">Rapid Beep</button>
+    </section>
+    <section>
+        <h3>Oscillator</h3>
+        <button id="single_oscillator">Single Oscillator Beep</button>
+        <button id="rapid_oscillator">Rapid Oscillator Beep</button>
+    </section>
+</main>
+
+<script type="module" src="index.js"></script>
+</body>
+</html>
